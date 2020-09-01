@@ -4,6 +4,8 @@ namespace App;
 
 trait Followable
 {
+    // Adding a comment, only to push something to the GitHub repo.
+
     public function follow(User $user)
     {
         return $this->follows()->save($user);
